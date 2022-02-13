@@ -3,7 +3,21 @@ function countClicks() {
 }
 
 function showBorder() {
+    console.log("Showing border")
 
+    let border = document.getElementById("circle2").getAttribute("stroke-width")
+    console.log(border)
+
+    document.getElementById("circle2").setAttribute("stroke-width", "5")
+}
+
+function removeBorder() {
+    console.log("Removing border")
+
+    let border = document.getElementById("circle2").getAttribute("stroke-width")
+    console.log(border)
+
+    document.getElementById("circle2").setAttribute("stroke-width", "0")
 }
 
 function toggleVisibility() {
