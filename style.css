@@ -17,7 +17,6 @@ h1 {
 }
 
 circle {
-  fill: none;
   stroke: black;
   stroke-width: 5px;
   stroke-linejoin: round;
