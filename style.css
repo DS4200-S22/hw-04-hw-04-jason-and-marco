@@ -15,3 +15,10 @@ body {
 h1 {
     text-align: center;
 }
+
+circle {
+  fill: none;
+  stroke: black;
+  stroke-width: 5px;
+  stroke-linejoin: round;
+}
