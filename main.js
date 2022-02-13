@@ -1,5 +1,11 @@
 function countClicks() {
+    console.log("Counting clicks")
 
+    let obj = document.getElementById("counter")
+    let count = obj.innerHTML
+    console.log(count)
+
+    obj.innerHTML = parseInt(count) + 1
 }
 
 function showBorder() {
