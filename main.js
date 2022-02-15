@@ -34,8 +34,7 @@ function toggleVisibility() {
 
     if (opacity === "100") {
         document.getElementById("circle3").setAttribute("opacity", "0");
-    }
-    else {
+    } else {
         document.getElementById("circle3").setAttribute("opacity", "100");
     }
 }
